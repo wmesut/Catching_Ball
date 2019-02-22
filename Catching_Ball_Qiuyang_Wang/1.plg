@@ -1,0 +1,135 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 1 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\MSI\AppData\Local\Temp\RSP1C5B.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/1.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"G:\c”Ô—‘\øŒ…Ë\1.cpp"
+]
+Creating command line "cl.exe @C:\Users\MSI\AppData\Local\Temp\RSP1C5B.tmp" 
+Creating temporary file "C:\Users\MSI\AppData\Local\Temp\RSP1C5C.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/1.pdb" /debug /machine:I386 /out:"Debug/1.exe" /pdbtype:sept 
+".\Debug\1.obj"
+]
+Creating command line "link.exe @C:\Users\MSI\AppData\Local\Temp\RSP1C5C.tmp"
+<h3>Output Window</h3>
+Compiling...
+1.cpp
+G:\c”Ô—‘\øŒ…Ë\1.cpp(43) : error C2065: 'strcpy' : undeclared identifier
+G:\c”Ô—‘\øŒ…Ë\1.cpp(75) : error C2065: 'RGB' : undeclared identifier
+G:\c”Ô—‘\øŒ…Ë\1.cpp(81) : error C2065: 'putpixel' : undeclared identifier
+G:\c”Ô—‘\øŒ…Ë\1.cpp(94) : error C2065: 'cleardevice' : undeclared identifier
+G:\c”Ô—‘\øŒ…Ë\1.cpp(107) : error C2065: 'MouseHit' : undeclared identifier
+G:\c”Ô—‘\øŒ…Ë\1.cpp(140) : error C2065: 'Sleep' : undeclared identifier
+G:\c”Ô—‘\øŒ…Ë\1.cpp(146) : error C2065: 'IMAGE' : undeclared identifier
+G:\c”Ô—‘\øŒ…Ë\1.cpp(146) : error C2146: syntax error : missing ';' before identifier 'img'
+G:\c”Ô—‘\øŒ…Ë\1.cpp(146) : error C2065: 'img' : undeclared identifier
+G:\c”Ô—‘\øŒ…Ë\1.cpp(147) : error C2065: 'loadimage' : undeclared identifier
+G:\c”Ô—‘\øŒ…Ë\1.cpp(148) : error C2065: 'putimage' : undeclared identifier
+G:\c”Ô—‘\øŒ…Ë\1.cpp(151) : error C2146: syntax error : missing ';' before identifier 'exit'
+G:\c”Ô—‘\øŒ…Ë\1.cpp(151) : warning C4551: function call missing argument list
+G:\c”Ô—‘\øŒ…Ë\1.cpp(153) : error C2065: 'HDC' : undeclared identifier
+G:\c”Ô—‘\øŒ…Ë\1.cpp(153) : error C2146: syntax error : missing ';' before identifier 'dstDC'
+G:\c”Ô—‘\øŒ…Ë\1.cpp(153) : error C2065: 'dstDC' : undeclared identifier
+G:\c”Ô—‘\øŒ…Ë\1.cpp(153) : error C2065: 'GetImageHDC' : undeclared identifier
+G:\c”Ô—‘\øŒ…Ë\1.cpp(154) : error C2146: syntax error : missing ';' before identifier 'srcDC'
+G:\c”Ô—‘\øŒ…Ë\1.cpp(154) : error C2065: 'srcDC' : undeclared identifier
+G:\c”Ô—‘\øŒ…Ë\1.cpp(155) : error C2065: 'TransparentBlt' : undeclared identifier
+G:\c”Ô—‘\øŒ…Ë\1.cpp(155) : error C2228: left of '.getwidth' must have class/struct/union type
+G:\c”Ô—‘\øŒ…Ë\1.cpp(155) : error C2228: left of '.getheight' must have class/struct/union type
+G:\c”Ô—‘\øŒ…Ë\1.cpp(155) : error C2228: left of '.getwidth' must have class/struct/union type
+G:\c”Ô—‘\øŒ…Ë\1.cpp(155) : error C2228: left of '.getheight' must have class/struct/union type
+G:\c”Ô—‘\øŒ…Ë\1.cpp(164) : error C2065: 'GetTickCount' : undeclared identifier
+G:\c”Ô—‘\øŒ…Ë\1.cpp(168) : error C2065: 'outtextxy' : undeclared identifier
+G:\c”Ô—‘\øŒ…Ë\1.cpp(191) : error C2065: 'setbkmode' : undeclared identifier
+G:\c”Ô—‘\øŒ…Ë\1.cpp(191) : error C2065: 'TRANSPARENT' : undeclared identifier
+G:\c”Ô—‘\øŒ…Ë\1.cpp(192) : error C2065: 'settextcolor' : undeclared identifier
+G:\c”Ô—‘\øŒ…Ë\1.cpp(192) : error C2065: 'WHITE' : undeclared identifier
+G:\c”Ô—‘\øŒ…Ë\1.cpp(209) : error C2065: 'GetAsyncKeyState' : undeclared identifier
+G:\c”Ô—‘\øŒ…Ë\1.cpp(209) : error C2065: 'VK_LEFT' : undeclared identifier
+G:\c”Ô—‘\øŒ…Ë\1.cpp(212) : error C2065: 'VK_RIGHT' : undeclared identifier
+G:\c”Ô—‘\øŒ…Ë\1.cpp(229) : error C2065: 'setlinecolor' : undeclared identifier
+G:\c”Ô—‘\øŒ…Ë\1.cpp(229) : error C2065: 'BLUE' : undeclared identifier
+G:\c”Ô—‘\øŒ…Ë\1.cpp(230) : error C2065: 'setfillcolor' : undeclared identifier
+G:\c”Ô—‘\øŒ…Ë\1.cpp(230) : error C2065: 'GREEN' : undeclared identifier
+G:\c”Ô—‘\øŒ…Ë\1.cpp(231) : error C2065: 'fillrectangle' : undeclared identifier
+G:\c”Ô—‘\øŒ…Ë\1.cpp(245) : error C2146: syntax error : missing ';' before identifier 'de'
+G:\c”Ô—‘\øŒ…Ë\1.cpp(245) : error C2065: 'de' : undeclared identifier
+G:\c”Ô—‘\øŒ…Ë\1.cpp(274) : error C2065: 'MOUSEMSG' : undeclared identifier
+G:\c”Ô—‘\øŒ…Ë\1.cpp(274) : error C2146: syntax error : missing ';' before identifier 'msg'
+G:\c”Ô—‘\øŒ…Ë\1.cpp(274) : error C2065: 'msg' : undeclared identifier
+G:\c”Ô—‘\øŒ…Ë\1.cpp(278) : error C2065: 'GetMouseMsg' : undeclared identifier
+G:\c”Ô—‘\øŒ…Ë\1.cpp(279) : error C2228: left of '.uMsg' must have class/struct/union type
+G:\c”Ô—‘\øŒ…Ë\1.cpp(279) : error C2065: 'WM_LBUTTONDOWN' : undeclared identifier
+G:\c”Ô—‘\øŒ…Ë\1.cpp(281) : error C2228: left of '.x' must have class/struct/union type
+G:\c”Ô—‘\øŒ…Ë\1.cpp(281) : error C2228: left of '.x' must have class/struct/union type
+G:\c”Ô—‘\øŒ…Ë\1.cpp(281) : error C2228: left of '.y' must have class/struct/union type
+G:\c”Ô—‘\øŒ…Ë\1.cpp(281) : error C2228: left of '.y' must have class/struct/union type
+G:\c”Ô—‘\øŒ…Ë\1.cpp(285) : error C2228: left of '.x' must have class/struct/union type
+G:\c”Ô—‘\øŒ…Ë\1.cpp(285) : error C2228: left of '.x' must have class/struct/union type
+G:\c”Ô—‘\øŒ…Ë\1.cpp(285) : error C2228: left of '.y' must have class/struct/union type
+G:\c”Ô—‘\øŒ…Ë\1.cpp(285) : error C2228: left of '.y' must have class/struct/union type
+G:\c”Ô—‘\øŒ…Ë\1.cpp(290) : error C2228: left of '.x' must have class/struct/union type
+G:\c”Ô—‘\øŒ…Ë\1.cpp(290) : error C2228: left of '.x' must have class/struct/union type
+G:\c”Ô—‘\øŒ…Ë\1.cpp(290) : error C2228: left of '.y' must have class/struct/union type
+G:\c”Ô—‘\øŒ…Ë\1.cpp(290) : error C2228: left of '.y' must have class/struct/union type
+G:\c”Ô—‘\øŒ…Ë\1.cpp(295) : error C2228: left of '.x' must have class/struct/union type
+G:\c”Ô—‘\øŒ…Ë\1.cpp(295) : error C2228: left of '.x' must have class/struct/union type
+G:\c”Ô—‘\øŒ…Ë\1.cpp(295) : error C2228: left of '.y' must have class/struct/union type
+G:\c”Ô—‘\øŒ…Ë\1.cpp(295) : error C2228: left of '.y' must have class/struct/union type
+G:\c”Ô—‘\øŒ…Ë\1.cpp(299) : error C2228: left of '.x' must have class/struct/union type
+G:\c”Ô—‘\øŒ…Ë\1.cpp(299) : error C2228: left of '.x' must have class/struct/union type
+G:\c”Ô—‘\øŒ…Ë\1.cpp(299) : error C2228: left of '.y' must have class/struct/union type
+G:\c”Ô—‘\øŒ…Ë\1.cpp(299) : error C2228: left of '.y' must have class/struct/union type
+G:\c”Ô—‘\øŒ…Ë\1.cpp(303) : error C2228: left of '.x' must have class/struct/union type
+G:\c”Ô—‘\øŒ…Ë\1.cpp(303) : error C2228: left of '.x' must have class/struct/union type
+G:\c”Ô—‘\øŒ…Ë\1.cpp(303) : error C2228: left of '.y' must have class/struct/union type
+G:\c”Ô—‘\øŒ…Ë\1.cpp(303) : error C2228: left of '.y' must have class/struct/union type
+G:\c”Ô—‘\øŒ…Ë\1.cpp(321) : error C2065: 'setcolor' : undeclared identifier
+G:\c”Ô—‘\øŒ…Ë\1.cpp(322) : error C2146: syntax error : missing ';' before identifier 'msg'
+G:\c”Ô—‘\øŒ…Ë\1.cpp(325) : error C2228: left of '.uMsg' must have class/struct/union type
+G:\c”Ô—‘\øŒ…Ë\1.cpp(327) : error C2228: left of '.x' must have class/struct/union type
+G:\c”Ô—‘\øŒ…Ë\1.cpp(327) : error C2228: left of '.x' must have class/struct/union type
+G:\c”Ô—‘\øŒ…Ë\1.cpp(327) : error C2228: left of '.y' must have class/struct/union type
+G:\c”Ô—‘\øŒ…Ë\1.cpp(327) : error C2228: left of '.y' must have class/struct/union type
+G:\c”Ô—‘\øŒ…Ë\1.cpp(331) : error C2228: left of '.x' must have class/struct/union type
+G:\c”Ô—‘\øŒ…Ë\1.cpp(331) : error C2228: left of '.x' must have class/struct/union type
+G:\c”Ô—‘\øŒ…Ë\1.cpp(331) : error C2228: left of '.y' must have class/struct/union type
+G:\c”Ô—‘\øŒ…Ë\1.cpp(331) : error C2228: left of '.y' must have class/struct/union type
+G:\c”Ô—‘\øŒ…Ë\1.cpp(335) : error C2228: left of '.x' must have class/struct/union type
+G:\c”Ô—‘\øŒ…Ë\1.cpp(335) : error C2228: left of '.x' must have class/struct/union type
+G:\c”Ô—‘\øŒ…Ë\1.cpp(335) : error C2228: left of '.y' must have class/struct/union type
+G:\c”Ô—‘\øŒ…Ë\1.cpp(335) : error C2228: left of '.y' must have class/struct/union type
+G:\c”Ô—‘\øŒ…Ë\1.cpp(339) : error C2228: left of '.x' must have class/struct/union type
+G:\c”Ô—‘\øŒ…Ë\1.cpp(339) : error C2228: left of '.x' must have class/struct/union type
+G:\c”Ô—‘\øŒ…Ë\1.cpp(339) : error C2228: left of '.y' must have class/struct/union type
+G:\c”Ô—‘\øŒ…Ë\1.cpp(339) : error C2228: left of '.y' must have class/struct/union type
+G:\c”Ô—‘\øŒ…Ë\1.cpp(357) : error C2146: syntax error : missing ';' before identifier 'bo'
+G:\c”Ô—‘\øŒ…Ë\1.cpp(357) : error C2065: 'bo' : undeclared identifier
+G:\c”Ô—‘\øŒ…Ë\1.cpp(359) : error C2146: syntax error : missing ';' before identifier 'dstDC'
+G:\c”Ô—‘\øŒ…Ë\1.cpp(360) : error C2146: syntax error : missing ';' before identifier 'srcDC'
+G:\c”Ô—‘\øŒ…Ë\1.cpp(361) : error C2228: left of '.getwidth' must have class/struct/union type
+G:\c”Ô—‘\øŒ…Ë\1.cpp(361) : error C2228: left of '.getheight' must have class/struct/union type
+G:\c”Ô—‘\øŒ…Ë\1.cpp(361) : error C2228: left of '.getwidth' must have class/struct/union type
+G:\c”Ô—‘\øŒ…Ë\1.cpp(361) : error C2228: left of '.getheight' must have class/struct/union type
+G:\c”Ô—‘\øŒ…Ë\1.cpp(366) : error C2146: syntax error : missing ';' before identifier 'ca'
+G:\c”Ô—‘\øŒ…Ë\1.cpp(366) : error C2065: 'ca' : undeclared identifier
+G:\c”Ô—‘\øŒ…Ë\1.cpp(368) : error C2146: syntax error : missing ';' before identifier 'dstDC'
+G:\c”Ô—‘\øŒ…Ë\1.cpp(369) : error C2146: syntax error : missing ';' before identifier 'srcDC'
+G:\c”Ô—‘\øŒ…Ë\1.cpp(370) : error C2228: left of '.getwidth' must have class/struct/union type
+G:\c”Ô—‘\øŒ…Ë\1.cpp(370) : fatal error C1003: error count exceeds 100; stopping compilation
+÷¥–– cl.exe  ±≥ˆ¥Ì.
+
+
+
+<h3>Results</h3>
+1.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

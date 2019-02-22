@@ -1,0 +1,7 @@
+# Microsoft Developer Studio Generated Dependency File, included by 1.mak
+
+.\1.cpp : \
+	"c:\program files (x86)\microsoft visual studio\vc98\include\basetsd.h"\
+	"c:\program files (x86)\microsoft visual studio\vc98\include\easyx.h"\
+	"c:\program files (x86)\microsoft visual studio\vc98\include\graphics.h"\
+	
